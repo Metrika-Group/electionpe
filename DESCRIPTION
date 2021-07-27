@@ -1,0 +1,19 @@
+Package: electionpe
+Title: R-dataset of the Peruvian Electoral Data
+Version: 0.0.1
+Authors@R: c(
+            person(given = "Omar", family = "Benites-Alfaro",role = c("aut", "cre"),email = "obacc07@gmail.com",
+            ),
+            person(family = "Metrika Group", role = "ctb",
+            comment = "Metrika Group")
+            )
+Description: Offers a complete dataset of 
+    Peruvian electoral data from the ONPE, the National Office of Electoral Processes. 
+    It is divided by district, provinces, regions and general country. 
+License: GPL-3 | file License
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
+Depends: 
+    R (>= 2.10)
